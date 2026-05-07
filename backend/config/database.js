@@ -14,7 +14,7 @@ const sequelize = new Sequelize(
     logging: process.env.NODE_ENV === 'development' ? console.log : false,
     dialectOptions: {
       ssl: {
-        rejectUnauthorized: false  // Required for Railway MySQL
+        rejectUnauthorized: false
       }
     },
     pool: {
