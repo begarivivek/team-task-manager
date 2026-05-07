@@ -1,0 +1,23 @@
+﻿{
+  "development": {
+    "username": "root",
+    "password": "viveksql@J1",
+    "database": "taskmanager",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "viveksql@J1",
+    "database": "taskmanager_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "viveksql@J1",
+    "database": "taskmanager_production",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
